@@ -51,7 +51,7 @@ try {
 	Marker marker =highlight(html, index, offset);
 	String plainHighlighted = plain.substring(index,offset);
 	System.out.println("plain text highlight: "+plainHighlighted);
-	System.out.println(marker.toString());
+	System.out.println("HTML text highlight: "+marker.toString());
 	
 } catch (Exception e) {
 	// TODO Auto-generated catch block
